@@ -1,9 +1,8 @@
 # ADASS
 AMI Data Analysis Summary Site
 
-Push-down stack of AMI and KP data analysis 'milestones' or notable results to help AMI data analysis improve.
-
-Create subdirectories - eg ./images, or ./oifits. ./kpfits for *small* files you link to in the table below
+Push-down stack of AMI and KP data analysis 'milestones' or notable results to help AMI data analysis improve.  
+Subdirectories - eg ./figures, or ./oifits. ./kpfits for *small* files to support summary below
 
 Create links to eg drivercode you used, etc etc.  Commit hash numbers identifying versions of implaneia/amical/candid/... might be helpful also.
 
