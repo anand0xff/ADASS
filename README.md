@@ -1,7 +1,7 @@
 # ADASS
 AMI Data Analysis Summary Site
 
-Push-down stack of AMI data analysis 'milestones' or notable results to help AMI data analysis improve.
+Push-down stack of AMI and KP data analysis 'milestones' or notable results to help AMI data analysis improve.
 
 Create subdirectories - eg ./images, or ./oifits. ./kpfits for *small* files you link to in the table below
 
