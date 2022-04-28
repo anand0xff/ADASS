@@ -13,8 +13,18 @@ Summary
 
     - relevant details
 
+22.04.28 Deepashri   
+Mirage uses distorted input PSF 
+
+    - Mirage uses a gridded PSF library to create noiseless seed images. The gridded PSF is created by calling
+      psf_grid(..., add_distortion=True, ...) from WebbPSF. The distorted oversampled PSF is saved in the PRIMARY extension.
+    - The distortion is applied when the gridded PSF is created by WebbPSF. Mirage uses distortion information from the SIAF 
+(sky to detector) file to place the PSF at the correct detector location. Oversampling rounding still to be resolved.
+
+
 22.04.07 Anand  
-Using [DoNothing](https://github.com/anand0xff/ADASS)'s (#1248a) extensive set of simulations and subsequent data analysis tools I discovered nothing new.  
+Using [DoNothing](https://github.com/anand0xff/ADASS)'s (#1248a) extensive set of simulations and subsequent data analysis
+tools I discovered nothing new.  
 
     - sim oversample/pixel scale/distortion/jitters/placement error... 
     - noise sources, (sizes,...)
